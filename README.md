@@ -75,3 +75,7 @@ Note that this will overwrite the log.txt if run again. This is generally desire
 When passing Madgraph samples to truth.py, the target status must be given as a flag. Example: 
 
 ```python truth.py inputFiles_load='./input-files/<input-list>.list' outputFilename='./output-files/<output-filename>.root' targetMass=1000 isAOD=False printEvery=1000 targetStatus=62 2>&1 | tee ./text-logs/<log-filename>.txt```
+
+**Status Code**
+
+When inputting madgraph files use targetStatus=62
